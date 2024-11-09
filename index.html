@@ -1,5 +1,28 @@
 <html>
   <body>
-    git install at local PC (or use github desktop) and commit it with VS code!!!
+    <p>
+      [todolist]
+      git install at local PC (or use github desktop) and commit it with VS code!!!
+    </p>
+
+    <p>
+      pull request means merging codes to upstream remote storage with others too
+        # git pull [원격저장소 이름] [원격저장소에서 pull하고자 하는 브랜치 이름]
+        # git branch insert // insert branch 생성
+        # git switch insert // insert branch 이동
+        # git branch // branch 확인
+      Edit your codes~~~~
+        # git add . // branch 디렉토리 로컬 git에 add
+        # git commit -m '로그내용'
+        # git push [원격저장소 이름, 대개 origin alias] [로컬저장소에서 push하고자 하는 브랜치 이름]
+      then create pull request on github
+      after reviewing, merge pull request
+
+      여기서 핵심은 각자 contributor들의 origin 원격저장소가 있다는 것인데,
+      origin 원격저장소에서 pull push하는 것은 svn하고 동일하지만,
+      pull request를 요청함으로서 origin 원격저장소에서 upstream 원격저장소 즉, 모두가 관리하는 저장소로의 병합을 요청하는 것이다.
+
+      그러면 push request가 아닌 왜 pull request이냐? >> 다른 저장소로 하여금 내 변경사항을 검토하고 가져가라라는 뜻이기에.
+    </p>
   </body>
 </html>
